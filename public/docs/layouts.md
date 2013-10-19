@@ -1,14 +1,14 @@
 # Layouts
 
-- [Introduction](#introduction)
-- [Example](#example)
+- [Pengenalan](#pengenalan)
+- [Contoh](#contoh)
 
-<a name="introduction"></a>
+<a name="pengenalan"></a>
 ## Introduction
 
 Layout merupakan hal yang paling dasar dari tema yang anda buat. Dengan kata lain, layout merupakan kerangka dari tema yang anda buat. Template jarvis store dapat dibedakan menjadi 2 bagian utama, yaitu `default.blade.php` dan `namatemakamu.blade.php`.
 
-<a name="example"></a>
+<a name="contoh"></a>
 ## Example
 Berikut adalah contoh isi sebuah layout dari tema kami.
 
@@ -38,4 +38,4 @@ Berikut adalah contoh isi sebuah layout dari tema kami.
 	{{ Theme::partial('analytic') }}
 	</html>
 
-Didalam layout inilah semua file-file assets, partials dan views akan di render. Jadi agar tema yang anda buat dapat berfungsi dengan baik maka anda harus mengikuti penulisan seperti yang di atas.`{{ Theme::place('content') }}` merupakan bagian utama dari layout anda dimana semua content dari tema yang anda buat akan ditampilkan di bagian tersebut.
+Didalam layout inilah semua file-file assets, partials dan views akan di render. Jadi agar tema yang anda buat dapat berfungsi dengan baik maka anda harus mengikuti penulisan seperti contoh diatas.`{{ Theme::place('content') }}` merupakan bagian utama dari layout anda dimana semua content dari tema yang anda buat akan ditampilkan di bagian tersebut.
