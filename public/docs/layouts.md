@@ -4,12 +4,12 @@
 - [Contoh](#contoh)
 
 <a name="pengenalan"></a>
-## Introduction
+## Pengenalan
 
 Layout merupakan hal yang paling dasar dari tema yang anda buat. Dengan kata lain, layout merupakan kerangka dari tema yang anda buat. Template jarvis store dapat dibedakan menjadi 2 bagian utama, yaitu `default.blade.php` dan `namatemakamu.blade.php`.
 
 <a name="contoh"></a>
-## Example
+## Contoh
 Berikut adalah contoh isi sebuah layout dari tema kami.
 
 ****
