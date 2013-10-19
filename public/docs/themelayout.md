@@ -1,15 +1,15 @@
-# Theme Layout
+# Layout Tema / Template
 
-- [Introduction](#introduction)
+- [Pengenalan](#pengenalan)
 - [Penjelasan](#penjelasan)
 
-<a name="introduction"></a>
+<a name="pengenalan"></a>
 ## Introduction
 Secara umum sistem template yang digunakan di jarvis store dapat dipisahkan menjadi beberapa bagian utama yang harus diikuti.
 
 **Susunan Layout Tema**
 
-	Your Theme
+	Root Tema
 		- assets
 		- layouts
 		- partials
@@ -42,7 +42,7 @@ Didalam assets ini merupakan tempat semua file-file yang dibutuhkan oleh tema ya
 		- images : folder untuk tempat semua file gambar yang dibutuhkan tema anda
 		- js : folder untuk tempat semua file-file javascript yang dibutuhkan tema anda
 
-*tips : pastikan semua images yang di file css sudah mengarah ke folder image.
+*note : pastikan semua images yang di file css sudah mengarah ke folder image.
 ###2. Layouts Folder
 Didalam layout folder akan berisi layout utama dari tema yang anda buat, penjelasan mengenai filefile layout akan dijelaskan secara detail di bagian layout.
 
